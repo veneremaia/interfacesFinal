@@ -96,6 +96,9 @@ element.style {
 .violetLine{
     border: 0.5px solid rgba(37, 31, 49, 0.363);
 }
+.tituloIngresar{
+    font-weight: lighter;
+}
 
 .box {
     background: #666666;
