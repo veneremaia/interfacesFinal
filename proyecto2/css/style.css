@@ -93,6 +93,9 @@ element.style {
 .forgetPassword:hover{
     color: white;
 }
+.violetLine{
+    border: 0.5px solid rgba(37, 31, 49, 0.363);
+}
 
 .box {
     background: #666666;
