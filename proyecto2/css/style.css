@@ -86,14 +86,50 @@ element.style {
 .linkSubscripcion{
     text-decoration-line: underline;
 }
-.forgetPassword{
+.forgetPassword, .recuerdame{
     font-size: 13px;
     color: rgb(154, 153, 156);
 }
 .forgetPassword:hover{
     color: white;
-
 }
+
+.box {
+    background: #666666;
+    color: #ffffff;
+    margin: 1em auto;
+  }
+
+  input[type="checkbox"] {
+    visibility: hidden;
+  }
+  label {
+    cursor: pointer;
+  }
+  input[type="checkbox"] + label:before {
+    border: 1px solid #333;
+    content: "\00a0";
+    display: inline-block;
+    font: 16px/1em sans-serif;
+    height: 16px;
+    margin: 0 .25em 0 0;
+    padding: 0;
+    vertical-align: center;
+    width: 15px;
+  }
+  input[type="checkbox"]:checked + label:before {
+    background: #754DCA;
+    color: #fff;
+    content: "\2713";
+    text-align: center;
+  }
+  input[type="checkbox"]:checked + label:after {
+    font-weight: bold;
+  }
+  
+  input[type="checkbox"]:focus + label::before {
+      outline: rgb(59, 153, 252) auto 5px;
+  }
 /******************** Suscripcion *********************/
 
 .contenedorSuscripcion{
